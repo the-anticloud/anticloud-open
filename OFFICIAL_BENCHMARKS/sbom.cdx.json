@@ -1,0 +1,221 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:2572b8d6-b080-5bee-9b43-525cb9a9fc46",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T06:24:55Z",
+    "component": {
+      "type": "application",
+      "name": "OPEN",
+      "version": "83b357604d34",
+      "bom-ref": "pkg:generic/anticloud/OPEN@83b357604d34",
+      "purl": "pkg:generic/anticloud/OPEN@83b357604d34",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": ""
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "bcryptjs",
+      "version": "^2.4.3",
+      "purl": "pkg:npm/bcryptjs@^2.4.3",
+      "bom-ref": "npm/bcryptjs@^2.4.3"
+    },
+    {
+      "type": "library",
+      "name": "body-parser",
+      "version": "^1.17.2",
+      "purl": "pkg:npm/body-parser@^1.17.2",
+      "bom-ref": "npm/body-parser@^1.17.2"
+    },
+    {
+      "type": "library",
+      "name": "connect-flash",
+      "version": "^0.1.1",
+      "purl": "pkg:npm/connect-flash@^0.1.1",
+      "bom-ref": "npm/connect-flash@^0.1.1"
+    },
+    {
+      "type": "library",
+      "name": "cookie-parser",
+      "version": "^1.4.3",
+      "purl": "pkg:npm/cookie-parser@^1.4.3",
+      "bom-ref": "npm/cookie-parser@^1.4.3"
+    },
+    {
+      "type": "library",
+      "name": "express",
+      "version": "^4.15.4",
+      "purl": "pkg:npm/express@^4.15.4",
+      "bom-ref": "npm/express@^4.15.4"
+    },
+    {
+      "type": "library",
+      "name": "express-handlebars",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/express-handlebars@^3.0.0",
+      "bom-ref": "npm/express-handlebars@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "express-messages",
+      "version": "^1.0.1",
+      "purl": "pkg:npm/express-messages@^1.0.1",
+      "bom-ref": "npm/express-messages@^1.0.1"
+    },
+    {
+      "type": "library",
+      "name": "express-session",
+      "version": "^1.15.5",
+      "purl": "pkg:npm/express-session@^1.15.5",
+      "bom-ref": "npm/express-session@^1.15.5"
+    },
+    {
+      "type": "library",
+      "name": "express-validator",
+      "version": "^3.2.1",
+      "purl": "pkg:npm/express-validator@^3.2.1",
+      "bom-ref": "npm/express-validator@^3.2.1"
+    },
+    {
+      "type": "library",
+      "name": "gulp",
+      "version": "^3.9.1",
+      "purl": "pkg:npm/gulp@^3.9.1",
+      "bom-ref": "npm/gulp@^3.9.1"
+    },
+    {
+      "type": "library",
+      "name": "gulp-autoprefixer",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/gulp-autoprefixer@^4.0.0",
+      "bom-ref": "npm/gulp-autoprefixer@^4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "gulp-cli",
+      "version": "^1.4.0",
+      "purl": "pkg:npm/gulp-cli@^1.4.0",
+      "bom-ref": "npm/gulp-cli@^1.4.0"
+    },
+    {
+      "type": "library",
+      "name": "gulp-concat",
+      "version": "^2.6.1",
+      "purl": "pkg:npm/gulp-concat@^2.6.1",
+      "bom-ref": "npm/gulp-concat@^2.6.1"
+    },
+    {
+      "type": "library",
+      "name": "gulp-minify-css",
+      "version": "^1.2.4",
+      "purl": "pkg:npm/gulp-minify-css@^1.2.4",
+      "bom-ref": "npm/gulp-minify-css@^1.2.4"
+    },
+    {
+      "type": "library",
+      "name": "gulp-nodemon",
+      "version": "^2.2.1",
+      "purl": "pkg:npm/gulp-nodemon@^2.2.1",
+      "bom-ref": "npm/gulp-nodemon@^2.2.1"
+    },
+    {
+      "type": "library",
+      "name": "gulp-plumber",
+      "version": "^1.1.0",
+      "purl": "pkg:npm/gulp-plumber@^1.1.0",
+      "bom-ref": "npm/gulp-plumber@^1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "gulp-rename",
+      "version": "^1.2.2",
+      "purl": "pkg:npm/gulp-rename@^1.2.2",
+      "bom-ref": "npm/gulp-rename@^1.2.2"
+    },
+    {
+      "type": "library",
+      "name": "gulp-sass",
+      "version": "^3.1.0",
+      "purl": "pkg:npm/gulp-sass@^3.1.0",
+      "bom-ref": "npm/gulp-sass@^3.1.0"
+    },
+    {
+      "type": "library",
+      "name": "gulp-uglify",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/gulp-uglify@^3.0.0",
+      "bom-ref": "npm/gulp-uglify@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "mongodb",
+      "version": "^2.2.31",
+      "purl": "pkg:npm/mongodb@^2.2.31",
+      "bom-ref": "npm/mongodb@^2.2.31"
+    },
+    {
+      "type": "library",
+      "name": "mongoose",
+      "version": "4.10.8",
+      "purl": "pkg:npm/mongoose@4.10.8",
+      "bom-ref": "npm/mongoose@4.10.8"
+    },
+    {
+      "type": "library",
+      "name": "passport",
+      "version": "^0.3.2",
+      "purl": "pkg:npm/passport@^0.3.2",
+      "bom-ref": "npm/passport@^0.3.2"
+    },
+    {
+      "type": "library",
+      "name": "passport-http",
+      "version": "^0.3.0",
+      "purl": "pkg:npm/passport-http@^0.3.0",
+      "bom-ref": "npm/passport-http@^0.3.0"
+    },
+    {
+      "type": "library",
+      "name": "passport-local",
+      "version": "^1.0.0",
+      "purl": "pkg:npm/passport-local@^1.0.0",
+      "bom-ref": "npm/passport-local@^1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "browser-sync",
+      "version": "^2.18.13",
+      "purl": "pkg:npm/browser-sync@^2.18.13",
+      "bom-ref": "npm/browser-sync@^2.18.13"
+    },
+    {
+      "type": "library",
+      "name": "browserify",
+      "version": "^14.4.0",
+      "purl": "pkg:npm/browserify@^14.4.0",
+      "bom-ref": "npm/browserify@^14.4.0"
+    }
+  ]
+}
